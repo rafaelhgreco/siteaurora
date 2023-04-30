@@ -1,6 +1,14 @@
 @media screen and (max-width: 760px) {
-    aside {
+    .produtos {
+        display: flex;
         flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
+    p{
+        text-align:start;
+        width: 70%;
+        line-height: 1.7;
     }
     header {
         flex-direction: column;
@@ -25,22 +33,33 @@
         
     }
 
-    .p1 {
-        padding-right: 100px;
-    }
-    .p2 {
-        padding-right: 100px;
-    }
-    .p3{
-        padding-right: 100px;
+
+    .imgproduto {
+        position: relative;
+        right: 30px;
     }
 
-    p {
-        text-align:center;
-        padding-left: 55px;
+    #produto3{
+        position: relative;
+        left: -51px;
     }
-    
-    h2 {
-        text-align: center;
+
+    #produto2 {
+        position: relative;
+        left: -82px;
+    }
+
+    #texto2 {
+        position: relative;
+        right: 50px;
+    }
+
+    #titulo2{
+        position: relative;
+        right: 76px;
+    }
+    #titulo3 {
+        position: relative;
+        right:13px;
     }
 }
