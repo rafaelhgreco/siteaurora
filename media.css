@@ -1,0 +1,46 @@
+@media screen and (max-width: 760px) {
+    aside {
+        flex-direction: column;
+    }
+    header {
+        flex-direction: column;
+        
+    }
+    .logo {
+        
+        position: absolute;
+        left: -55px;
+        padding-left: 80px;
+        margin-top: 40px;
+    }
+
+    .naveg {
+        position: absolute;
+        left: 10px;
+    }
+    .contatos {
+        
+        position: relative;
+        bottom: 80px;
+        
+    }
+
+    .p1 {
+        padding-right: 100px;
+    }
+    .p2 {
+        padding-right: 100px;
+    }
+    .p3{
+        padding-right: 100px;
+    }
+
+    p {
+        text-align:center;
+        padding-left: 55px;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+}
